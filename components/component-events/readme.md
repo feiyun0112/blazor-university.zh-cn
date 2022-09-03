@@ -239,4 +239,4 @@ public Task SomethingHappenedInChildComponent()
 }
 ```
 
-**[下一篇 - 浏览器 DOM 事件](/components/component-events/browser-dom-events)**
+**[下一篇 - 浏览器 DOM 事件](https://feiyun0112.github.io/blazor-university.zh-cn/components/component-events/browser-dom-events)**

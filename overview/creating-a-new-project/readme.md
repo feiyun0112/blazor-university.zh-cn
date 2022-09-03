@@ -11,5 +11,5 @@
 - 选中 **ASP.NET Core 托管**复选框。
 - 单击**创建**。
 
-**[下一篇 - 创建页面](/overview/creating-a-page)**
+**[下一篇 - 创建页面](https://feiyun0112.github.io/blazor-university.zh-cn/overview/creating-a-page)**
  

@@ -206,4 +206,4 @@ public class NewsletterService : INewsletterService
 
   ![](ToDoListRendered.png)
 
-**[下一篇 - 依赖生命周期和范围](/dependency-injection/dependency-lifetimes-and-scopes/)**
+**[下一篇 - 依赖生命周期和范围](https://feiyun0112.github.io/blazor-university.zh-cn/dependency-injection/dependency-lifetimes-and-scopes/)**

@@ -90,4 +90,4 @@ Razor 只会在以下位置执行 C# 代码：
 
 `<input readonly=@true disabled=@false/>` 将导致生成的 HTML 完全不包含 disabled 属性。
 
-**[下一篇 - 捕获意外参数](/components/capturing-unexpected-parameters)**
+**[下一篇 - 捕获意外参数](https://feiyun0112.github.io/blazor-university.zh-cn/components/capturing-unexpected-parameters)**

@@ -13,4 +13,4 @@
 另请注意，当导航到解析为与当前页面相同类型的组件的新 URL 时，组件不会在导航之前被销毁，并且不会执行 `OnInitialized*` 生命周期方法。导航被简单地视为对组件参数的更改。
 
 
-**[下一篇 - 定义路由](/routing/defining-routes)**
+**[下一篇 - 定义路由](https://feiyun0112.github.io/blazor-university.zh-cn/routing/defining-routes)**

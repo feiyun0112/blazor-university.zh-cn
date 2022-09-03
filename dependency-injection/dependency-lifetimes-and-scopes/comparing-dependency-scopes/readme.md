@@ -371,9 +371,9 @@ else
 
 `Scoped` 依赖的行为与 `Singleton` 注册的依赖几乎相同，除了它们与其他用户/其他浏览器选项卡隔离。
 
-`Transient` 依赖在服务器端和 WebAssembly 上的工作方式相同，并且与 ASP.NET MVC 中的工作方式相同——除了依赖注入容器在 ASP.NET MVC 中的页面请求之后被释放。请参阅 `Transient` 依赖项的[避免内存泄漏](/dependency-injection/dependency-lifetimes-and-scopes/transient-dependencies/#avoiding-memory-leaks)部分。
+`Transient` 依赖在服务器端和 WebAssembly 上的工作方式相同，并且与 ASP.NET MVC 中的工作方式相同——除了依赖注入容器在 ASP.NET MVC 中的页面请求之后被释放。请参阅 `Transient` 依赖项的[避免内存泄漏](https://feiyun0112.github.io/blazor-university.zh-cn/dependency-injection/dependency-lifetimes-and-scopes/transient-dependencies/#avoiding-memory-leaks)部分。
 
 有一些方法可以为每个用户引入额外的范围。这种技术将在后面的部分中介绍。
 
 
-**[下一篇 - 组件范围依赖](/dependency-injection/component-scoped-dependencies/)**
+**[下一篇 - 组件范围依赖](https://feiyun0112.github.io/blazor-university.zh-cn/dependency-injection/component-scoped-dependencies/)**

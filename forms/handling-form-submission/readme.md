@@ -111,4 +111,4 @@ Blazor 将拦截表单提交事件并将它们路由回我们的 razor 视图。
 
 ![](BlazorFormValidationCorrect.png)
 
-**[下一篇 - EditContext、FieldIdentifiers 和 FieldState](/forms/editcontext-fieldidentifiers-and-fieldstate/)**
+**[下一篇 - EditContext、FieldIdentifiers 和 FieldState](https://feiyun0112.github.io/blazor-university.zh-cn/forms/editcontext-fieldidentifiers-and-fieldstate/)**

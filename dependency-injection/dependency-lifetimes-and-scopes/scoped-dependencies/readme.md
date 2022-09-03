@@ -29,4 +29,4 @@ WebAssembly 应用程序中的作用域略有不同。在服务器端应用程�
 
 ![](BlazorWebAssemblyScopes.jpg)
 
-**[下一篇 - 比较依赖范围](/dependency-injection/dependency-lifetimes-and-scopes/comparing-dependency-scopes/)**
+**[下一篇 - 比较依赖范围](https://feiyun0112.github.io/blazor-university.zh-cn/dependency-injection/dependency-lifetimes-and-scopes/comparing-dependency-scopes/)**

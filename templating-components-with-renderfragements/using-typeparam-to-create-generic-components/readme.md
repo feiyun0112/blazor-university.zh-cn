@@ -155,4 +155,4 @@ public class Person
 <SomeGenericComponent TParam1=Person TParam2=Supplier TItem=etc/>
 ```
 
-**[下一篇 - 将占位符传递给 RenderFragments](/templating-components-with-renderfragements/passing-placeholders-to-renderfragments)**
+**[下一篇 - 将占位符传递给 RenderFragments](https://feiyun0112.github.io/blazor-university.zh-cn/templating-components-with-renderfragements/passing-placeholders-to-renderfragments)**

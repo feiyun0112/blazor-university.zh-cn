@@ -20,7 +20,7 @@ Blazor 不允许 JavaScript 随意调用 .NET 代码中的任何静态或实例�
 
 首先，创建一个新的 Blazor 应用程序并将 Index.razor 更改为以下标记。
 
-**警告：以下代码存在内存泄漏，不应在生产中使用。这将在[生命周期和内存泄漏](/javascript-interop/calling-dotnet-from-javascript/lifetimes-and-memory-leaks/)中重点讲解和更正。**
+**警告：以下代码存在内存泄漏，不应在生产中使用。这将在[生命周期和内存泄漏](https://feiyun0112.github.io/blazor-university.zh-cn/javascript-interop/calling-dotnet-from-javascript/lifetimes-and-memory-leaks/)中重点讲解和更正。**
 
 ```
 @page "/"
@@ -83,7 +83,7 @@ Blazor 不允许 JavaScript 随意调用 .NET 代码中的任何静态或实例�
 
 - 第 29-32 行
 
-  将接收到的文本添加到我们的 `List<string>`，确保不超过 10 个项目，然后调用 `StateHasChanged`，以便 Blazor 知道它需要重新创建其[渲染树](/components/render-trees/)。
+  将接收到的文本添加到我们的 `List<string>`，确保不超过 10 个项目，然后调用 `StateHasChanged`，以便 Blazor 知道它需要重新创建其[渲染树](https://feiyun0112.github.io/blazor-university.zh-cn/components/render-trees/)。
 
 - 第 33 行
 
@@ -117,4 +117,4 @@ BlazorUniversity.startRandomGenerator = function(dotNetObject) {
 ![Visual Studio 输出视图](CallingDotNetFromJavaScriptVS.png)
 
 
-**[下一篇 - 生命周期和内存泄漏](/javascript-interop/calling-dotnet-from-javascript/lifetimes-and-memory-leaks/)**
+**[下一篇 - 生命周期和内存泄漏](https://feiyun0112.github.io/blazor-university.zh-cn/javascript-interop/calling-dotnet-from-javascript/lifetimes-and-memory-leaks/)**

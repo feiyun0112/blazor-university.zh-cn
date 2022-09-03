@@ -107,7 +107,7 @@ public static JavaScriptSettings GetSettings() => Settings;
 
 **注意：不要立即从 JavaScript 调用 .NET 静态方法** 
 
-如果您回顾 [JavaScript 启动过程](/javascript-interop/javascript-boot-process/)部分，您会记得 JavaScript 在 Blazor 初始化之前已在浏览器中初始化。
+如果您回顾 [JavaScript 启动过程](https://feiyun0112.github.io/blazor-university.zh-cn/javascript-interop/javascript-boot-process/)部分，您会记得 JavaScript 在 Blazor 初始化之前已在浏览器中初始化。
 
 ![](JavaScriptBootProcessDiagram.png)
 
@@ -156,4 +156,4 @@ Blazor.start({})
 
 这种方法的问题是您只能使用一次。因此，如果我们在不同的脚本中有多个入口点，那么我们将不得不创建自己的挂钩点来缓存来自 `Blazor.start` 的结果并将其返回给任何调用脚本。
 
-**[下一篇 - 依赖注入](/dependency-injection/)**
+**[下一篇 - 依赖注入](https://feiyun0112.github.io/blazor-university.zh-cn/dependency-injection/)**

@@ -57,4 +57,4 @@
 还要注意 `CascadedValue` 的值如何可用于所有组件。
 ![](OverridingCascadedValues.png)
 
-**[下一篇 - 代码生成 HTML 属性](/components/code-generated-html-attributes)**
+**[下一篇 - 代码生成 HTML 属性](https://feiyun0112.github.io/blazor-university.zh-cn/components/code-generated-html-attributes)**

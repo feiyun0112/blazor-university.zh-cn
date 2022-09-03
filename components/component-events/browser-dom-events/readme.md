@@ -163,4 +163,4 @@ onloadend | 	ProgressEventArgs
 onprogress | 	ProgressEventArgs
 onerror	 | ErrorEventArgs
 
-**[下一篇 - 双向绑定](/components/two-way-binding)**
+**[下一篇 - 双向绑定](https://feiyun0112.github.io/blazor-university.zh-cn/components/two-way-binding)**

@@ -22,7 +22,7 @@ Blazor 还包括一个用于呈现超链接的组件，并额外支持在地址�
 </NavLink>
 ```
 
-NavLink 组件使用 HTML 超链接装饰其子内容。所有属性，如 `class`、`href` 等，都通过[属性展开](/components/code-generated-html-attributes/)直接呈现给 `<a>` 元素。 NavLink 组件有两个参数可以提供额外的行为。
+NavLink 组件使用 HTML 超链接装饰其子内容。所有属性，如 `class`、`href` 等，都通过[属性展开](https://feiyun0112.github.io/blazor-university.zh-cn/components/code-generated-html-attributes/)直接呈现给 `<a>` 元素。 NavLink 组件有两个参数可以提供额外的行为。
 
 `ActiveClass` 参数指定当浏览器的 URL 与 `href` 属性的 URL 匹配时，将哪个 CSS 类应用于呈现的 `<a>` 元素。如果未指定，Blazor 将应用名为“active”的 CSS 类。
 
@@ -156,4 +156,4 @@ NavLinkMatch MatchMode = NavLinkMatch.All;
 
 尽管浏览器 URL 保持不变，但我们可以看到第一个 Counter NavLink 根据其 `Match` 参数的设置在活动/非活动之间切换。
 
-**[下一篇 - 通过代码导航](/routing/navigating-our-app-via-code)**
+**[下一篇 - 通过代码导航](https://feiyun0112.github.io/blazor-university.zh-cn/routing/navigating-our-app-via-code)**

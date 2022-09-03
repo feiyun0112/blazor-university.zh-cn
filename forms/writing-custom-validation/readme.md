@@ -3,7 +3,7 @@
 # 编写自定义验证
 [源代码](https://github.com/mrpmorris/blazor-university/tree/master/src/Forms/CustomValidation)
 
-请注意，与有关 [EditContext、FieldIdentifiers 和 FieldState](/forms/editcontext-fieldidentifiers-and-fieldstate/) 的部分一样，这是一个高级主题。
+请注意，与有关 [EditContext、FieldIdentifiers 和 FieldState](https://feiyun0112.github.io/blazor-university.zh-cn/forms/editcontext-fieldidentifiers-and-fieldstate/) 的部分一样，这是一个高级主题。
 
 如前所述，`FieldState` 类保存表单数据的元状态。除了指示值是否已被手动编辑外，Blazor 还存储验证错误消息的集合。为了了解它的工作原理，本节将说明如何创建我们自己的自定义验证机制，该机制可与 Blazor 一起使用来验证用户输入。
 
@@ -16,7 +16,7 @@
 
 
 ## 创建验证器组件
-我们的验证器组件不必为了提供验证而从任何特定类继承。唯一的要求是它来自 Blazor `ComponentBase` 类，以便我们可以将其添加到视图中的 `<EditForm>` 标记中。嵌入 `<EditForm>` 标记的目的是为了让我们可以定义一个[级联参数](/components/cascading-values/)，以便在 `EditForm` 的 `Model` 参数更改时获取当前由 `EditForm` 创建的 `EditContext`。
+我们的验证器组件不必为了提供验证而从任何特定类继承。唯一的要求是它来自 Blazor `ComponentBase` 类，以便我们可以将其添加到视图中的 `<EditForm>` 标记中。嵌入 `<EditForm>` 标记的目的是为了让我们可以定义一个[级联参数](https://feiyun0112.github.io/blazor-university.zh-cn/components/cascading-values/)，以便在 `EditForm` 的 `Model` 参数更改时获取当前由 `EditForm` 创建的 `EditContext`。
 
 首先，创建一个新的 Blazor 应用并添加对 [FluentValidation NuGet 包](https://www.nuget.org/packages/FluentValidation/)的引用。然后创建一个名为 `FluentValidationValidator` 的类。
 
@@ -297,7 +297,7 @@ public void ConfigureServices(IServiceCollection services)
 
 1. 我们的 `EditForm` 组件是从 `<EditForm Model=@Person>` 标记创建的。
 2. `EditForm.OnParametersSet` 被执行，因为 `EditForm.Model` 已经从 null 变成了我们的 `Person`，它创建了一个新的 `EditContext` 实例。
-3. 新的 `EditContext` 实例通过[级联值](/cascading-values/cascading-values-by-type/)级联到所有子组件。
+3. 新的 `EditContext` 实例通过[级联值](https://feiyun0112.github.io/blazor-university.zh-cn/cascading-values/cascading-values-by-type/)级联到所有子组件。
 4. 对于这种级联值的变化，`InputBase<T>` 的每个派生类都会执行其 `SetParametersAsync`，并通过创建 `FieldIdentifier` 的新实例来做出反应。
 
 ### 我们的验证组件已初始化
@@ -369,4 +369,4 @@ WASM：连接 EditContext 事件（OnValidationRequested 和 OnFieldChanged）
 
   Index.razor 中的 `Person` 实例被更改，导致元状态实例被丢弃并为新的 `EditForm.Model` 创建新实例。
 
-**[下一篇 - 组件库](/component-libraries/)**
+**[下一篇 - 组件库](https://feiyun0112.github.io/blazor-university.zh-cn/component-libraries/)**

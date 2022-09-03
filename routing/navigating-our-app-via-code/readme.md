@@ -9,12 +9,12 @@
 
 `NavigationManager` 服务有两个特别的成员； `NavigateTo` 和 `LocationChanged`。
 
-`LocationChanged` 事件将在[检测导航事件](/routing/detecting-navigation-events/)中更详细地解释。
+`LocationChanged` 事件将在[检测导航事件](https://feiyun0112.github.io/blazor-university.zh-cn/routing/detecting-navigation-events/)中更详细地解释。
 
 ## NavigateTo 方法
 `NavigationManager.NavigateTo` 方法使 C# 代码能够控制浏览器的 URL。与截获的导航一样，浏览器实际上并不导航到新的 URL。相反，浏览器中的 URL 被替换，之前的 URL 被插入到浏览器的导航历史中，但没有向服务器请求新页面的内容。通过 `NavigateTo` 进行的导航将触发 `LocationChanged` 事件，传递新 URL 并为 `IsNavigationIntercepted` 传递 `false`。
 
-对于此示例，我们将再次更改标准 Blazor 模板。我们将使用我们之前在[路由参数](/routing/route-parameters/)和[可选路由参数](/routing/optional-route-parameters/)中学到的知识。
+对于此示例，我们将再次更改标准 Blazor 模板。我们将使用我们之前在[路由参数](https://feiyun0112.github.io/blazor-university.zh-cn/routing/route-parameters/)和[可选路由参数](https://feiyun0112.github.io/blazor-university.zh-cn/routing/optional-route-parameters/)中学到的知识。
 
 首先，删除 **Index.razor** 和 **FetchData.razor** 页面，并删除 **NavMenu.razor** 文件中指向这些页面的链接。同样在 `NavMenu` 中，将 `counter` 链接的 `href` 更改为 为 `href=""`，因为我们将使其成为默认页面。
 
@@ -159,4 +159,4 @@ void AlterBy(int adjustment)
 ```
 
 
-**[下一篇 - 检测导航事件](/routing/detecting-navigation-events)**
+**[下一篇 - 检测导航事件](https://feiyun0112.github.io/blazor-university.zh-cn/routing/detecting-navigation-events)**

@@ -120,4 +120,4 @@ public Expression<Func<T>> For { get; set; }
 
 ![](ValidationSummaryAndValidationMessages.png)
 
-**[下一篇 - 处理表单提交](/forms/handling-form-submission/)**
+**[下一篇 - 处理表单提交](https://feiyun0112.github.io/blazor-university.zh-cn/forms/handling-form-submission/)**

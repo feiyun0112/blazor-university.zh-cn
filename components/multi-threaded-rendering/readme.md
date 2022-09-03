@@ -5,7 +5,7 @@
 
 这在基于异步任务的操作中最常见。例如，向服务器发送 HTTP 请求的多个组件将收到单独的响应。每个单独的响应都将使用系统从可用线程池中为我们选择的任何线程来恢复调用方法。
 
-我们观察这种行为的最简单方法是创建一些执行 `await` 的异步方法。对于此示例，我们将使用 OnInitializedAsync [生命周期](/components/component-lifecycles/)方法。
+我们观察这种行为的最简单方法是创建一些执行 `await` 的异步方法。对于此示例，我们将使用 OnInitializedAsync [生命周期](https://feiyun0112.github.io/blazor-university.zh-cn/components/component-lifecycles/)方法。
 
 [源代码](https://github.com/mrpmorris/blazor-university/tree/master/src/Components/MultithreadedRendering)
 
@@ -171,6 +171,6 @@ Async rendered by thread 13
 
 在 Blazor WebAssembly 应用程序（只有一个线程）中没有线程问题，但在服务器端应用程序中，当跨多个组件使用非线程安全依赖项时，这可能会导致问题。
 
-此问题将在有关 [OwningComponentBase<T>](/dependency-injection/component-scoped-dependencies/owningcomponentbase-generic/) 的部分中解决。
+此问题将在有关 [OwningComponentBase<T>](https://feiyun0112.github.io/blazor-university.zh-cn/dependency-injection/component-scoped-dependencies/owningcomponentbase-generic/) 的部分中解决。
 
-**[下一篇 - 线程安全的使用 InvokeAsync](/components/multi-threaded-rendering/invokeasync)**
+**[下一篇 - 线程安全的使用 InvokeAsync](https://feiyun0112.github.io/blazor-university.zh-cn/components/multi-threaded-rendering/invokeasync)**

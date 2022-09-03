@@ -132,4 +132,4 @@ public RenderFragment<TabPage> TabTextTemplate { get; set; }
 </TabTextTemplate>
 ```
 
-**[下一篇 - 使用 @typeparam 创建通用组件](/templating-components-with-renderfragements/using-typeparam-to-create-generic-components)**
+**[下一篇 - 使用 @typeparam 创建通用组件](https://feiyun0112.github.io/blazor-university.zh-cn/templating-components-with-renderfragements/using-typeparam-to-create-generic-components)**

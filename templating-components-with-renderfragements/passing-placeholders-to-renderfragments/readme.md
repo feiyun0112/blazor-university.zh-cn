@@ -42,7 +42,7 @@ public RenderFragment<RenderFragment> ChildContent { get; set; }
 </OurComponent>
 ```
 
-或者，如果我们想使用名称 `Body（或任何其他名称）` 而不是上下文，我们可以指定用于上下文的名称。请参阅将[数据传递给 RenderFragment](/templating-components-with-renderfragements/passing-data-to-a-renderfragement/) 末尾的**避免 @context 名称冲突**部分。
+或者，如果我们想使用名称 `Body（或任何其他名称）` 而不是上下文，我们可以指定用于上下文的名称。请参阅将[数据传递给 RenderFragment](https://feiyun0112.github.io/blazor-university.zh-cn/templating-components-with-renderfragements/passing-data-to-a-renderfragement/) 末尾的**避免 @context 名称冲突**部分。
 
 ```
 <OurComponent Context="FragmentWeNeedToRender">
@@ -65,7 +65,7 @@ public class Person
 ```
 
 ### 创建一个简单的模板化重复组件
-此详细信息类似于[使用 @typeparam 创建通用组件](/templating-components-with-renderfragements/using-typeparam-to-create-generic-components/)一节中介绍的内容。
+此详细信息类似于[使用 @typeparam 创建通用组件](https://feiyun0112.github.io/blazor-university.zh-cn/templating-components-with-renderfragements/using-typeparam-to-create-generic-components/)一节中介绍的内容。
 
 接下来，我们需要在 **/Shared** 中创建一个名为 **DataList.razor** 的新组件。该组件将是一个通用组件（使用 `@typeparam`），并将采用一个 `IEnumerable<TItem>` 并迭代可枚举以使用其使用者指定的模板呈现每个项目的内容。
 
@@ -114,7 +114,7 @@ public class Person
 }
 ```
 
-**注意：** `<li>` 元素中的 `@key=context` 用于优化性能，应在呈现列表时使用。有关更多信息，请参阅[使用 @key 进行优化](/render-trees/optimising-using-key/)。
+**注意：** `<li>` 元素中的 `@key=context` 用于优化性能，应在呈现列表时使用。有关更多信息，请参阅[使用 @key 进行优化](https://feiyun0112.github.io/blazor-university.zh-cn/render-trees/optimising-using-key/)。
 
 ### 问题
 如果我们的 `DataList` 组件不仅输出项目列表怎么办。也许它有一个页脚，允许用户使用“上一个”/“下一个”按钮一次显示一页元素，还有一个页脚显示总共有多少项目？
@@ -455,4 +455,4 @@ else
 ## 补充阅读
 本节的源代码包括一个[使用 `PagedDataList` 组件](https://github.com/mrpmorris/blazor-university/blob/master/src/TemplatedComponents/PassingPlaceholdersToRenderFragments/Shared/PagedDataList.razor)的附加示例页面。
 
-**[下一篇 - 路由](/routing/)**
+**[下一篇 - 路由](https://feiyun0112.github.io/blazor-university.zh-cn/routing/)**

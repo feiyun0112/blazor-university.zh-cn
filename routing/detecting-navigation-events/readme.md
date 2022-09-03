@@ -59,4 +59,4 @@ void IDisposable.Dispose()
 }
 ```
 
-**[下一篇 - 表单](/forms)**
+**[下一篇 - 表单](https://feiyun0112.github.io/blazor-university.zh-cn/forms)**

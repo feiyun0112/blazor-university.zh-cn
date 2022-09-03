@@ -8,7 +8,7 @@
 ![](FieldIdentifiersAndStateUML.png)
 
 ## EditContext
-每当 `EditForm.Model` 更改（表单中正在修改的对象）时，都会执行 `EditForm.OnParametersSet` 并创建一个新的 `EditContext` 实例。 `EditForm` 组件将此 `EditContext` 声明为[级联值](/components/cascading-values/cascading-values-by-type/)，以便表单中的任何组件都可以访问它。
+每当 `EditForm.Model` 更改（表单中正在修改的对象）时，都会执行 `EditForm.OnParametersSet` 并创建一个新的 `EditContext` 实例。 `EditForm` 组件将此 `EditContext` 声明为[级联值](https://feiyun0112.github.io/blazor-university.zh-cn/components/cascading-values/cascading-values-by-type/)，以便表单中的任何组件都可以访问它。
 
 `EditContext` 是当前正在编辑的对象的表单元数据持有者。在表单中编辑对象（例如 `Person`）时，Blazor 需要了解有关该对象的其他信息，以便提供更丰富的用户体验。 Blazor 持有的其他信息告诉我们：
 
@@ -96,4 +96,4 @@ protected override OnInitialized()
 
 **注意：** 条目仅在需要时添加到字典中。
 
-**[下一篇 - 获得表单状态](/forms/accessing-form-state/)**
+**[下一篇 - 获得表单状态](https://feiyun0112.github.io/blazor-university.zh-cn/forms/accessing-form-state/)**

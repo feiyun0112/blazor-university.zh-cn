@@ -3,7 +3,7 @@
 # 级联值
 [源代码](https://github.com/mrpmorris/blazor-university/tree/master/src/CascadingValues/ManualParameterPassing)
 
-我们已经看到 Blazor 如何允许我们使用[参数](/components/one-way-binding/)将上下文从父组件传递给子组件。随着组件变得越来越复杂，将其拆分为子组件的情况并不少见。在某些时候，一个组件可能会要求其使用者传递它自身不使用但它的一个子组件需要的状态。随着我们组件的结构随着时间的推移变得越来越复杂，我们可能会发现自己的组件需要添加多个参数，而这些参数并不被使用，而是简单地传递，因为它们在更深层次的某个地方需要。
+我们已经看到 Blazor 如何允许我们使用[参数](https://feiyun0112.github.io/blazor-university.zh-cn/components/one-way-binding/)将上下文从父组件传递给子组件。随着组件变得越来越复杂，将其拆分为子组件的情况并不少见。在某些时候，一个组件可能会要求其使用者传递它自身不使用但它的一个子组件需要的状态。随着我们组件的结构随着时间的推移变得越来越复杂，我们可能会发现自己的组件需要添加多个参数，而这些参数并不被使用，而是简单地传递，因为它们在更深层次的某个地方需要。
 
 ![](VacancyUML.png)
 
@@ -35,4 +35,4 @@
 
 这是用级联值解决的挑战。
 
-**[下一篇 - 按名称级联值](/components/cascading-values/cascading-values-by-name)**
+**[下一篇 - 按名称级联值](https://feiyun0112.github.io/blazor-university.zh-cn/components/cascading-values/cascading-values-by-name)**

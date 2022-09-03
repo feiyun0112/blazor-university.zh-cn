@@ -213,4 +213,4 @@ Favorite colour is @CurrentPerson.FavoriteColor
 
 ![](InputColor-Edge.gif)
 
-**[下一篇 - 验证](/forms/validation/)**
+**[下一篇 - 验证](https://feiyun0112.github.io/blazor-university.zh-cn/forms/validation/)**

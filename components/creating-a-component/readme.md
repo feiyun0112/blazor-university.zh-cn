@@ -33,4 +33,4 @@ Welcome to your new app.
 现在运行应用程序，我们将看到以下内容。
 ![](ThisIsMyFirstComponent.jpg)
 
- **[下一篇 - 单向绑定](/components/one-way-binding)**
+ **[下一篇 - 单向绑定](https://feiyun0112.github.io/blazor-university.zh-cn/components/one-way-binding)**

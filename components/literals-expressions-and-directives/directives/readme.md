@@ -1,7 +1,7 @@
 > 原文链接：https://blazor-university.com/components/literals-expressions-and-directives/directives/
 
 # 指令
-指令是内置宏，可更改从 Razor 标记生成的已转译 C# 代码。通过在标识符前面加上 `@` 符号来使用指令，标识符是我们通常期望的 HTML 属性的名称或组件属性的名称。如果您还没有这样做，请阅读[字面量、表达式和指令](/components/literals-expressions-and-directives)。
+指令是内置宏，可更改从 Razor 标记生成的已转译 C# 代码。通过在标识符前面加上 `@` 符号来使用指令，标识符是我们通常期望的 HTML 属性的名称或组件属性的名称。如果您还没有这样做，请阅读[字面量、表达式和指令](https://feiyun0112.github.io/blazor-university.zh-cn/components/literals-expressions-and-directives)。
 
 **注意：** 目前，与 Angular 等其他框架不同，Blazor 不允许开发人员创建自己的指令。
 
@@ -55,7 +55,7 @@ public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
 
 - `@page`
 
-  此指令在转译的类上生成一个 `[PageAttribute]`，使 Blazor [路由](/routing)（稍后介绍）能够识别在 URL 中给定特定地址的情况下要呈现哪个组件（页面）。
+  此指令在转译的类上生成一个 `[PageAttribute]`，使 Blazor [路由](https://feiyun0112.github.io/blazor-university.zh-cn/routing)（稍后介绍）能够识别在 URL 中给定特定地址的情况下要呈现哪个组件（页面）。
 
 - `@layout`
 
@@ -86,13 +86,13 @@ public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
 
 - `@attributes`
 
-  将[名称-值](/components/code-generated-html-attributes/)对作为 HTML 属性输出。
+  将[名称-值](https://feiyun0112.github.io/blazor-university.zh-cn/components/code-generated-html-attributes/)对作为 HTML 属性输出。
 
 - `@key`
 
-  使我们能够为元素/组件提供唯一标识符，这有助于在[渲染](/components/render-trees/) HTML 时保持较小的更改增量。
+  使我们能够为元素/组件提供唯一标识符，这有助于在[渲染](https://feiyun0112.github.io/blazor-university.zh-cn/components/render-trees/) HTML 时保持较小的更改增量。
 
-以下是可用的 HTML DOM 元素事件的子集。这些将在[组件事件](/components/component-events)中更详细地讨论。
+以下是可用的 HTML DOM 元素事件的子集。这些将在[组件事件](https://feiyun0112.github.io/blazor-university.zh-cn/components/component-events)中更详细地讨论。
 
 - `@onmousemove`
 - `@onclick`
@@ -167,6 +167,6 @@ public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
 
 第 4、6 和 8 行都定义了 `@onclick` 属性，并声明了触发浏览器 `onclick` 事件时要执行的 C# 方法。第 6 行添加了一个额外的 `@onclick:stopPropagation` 以防止浏览器将点击从第二级传播到第一级。更多 DOM 事件将在关于 DOM 事件的部分中介绍。
 
-一些指令属性期望我们以 `@directive:attribute="value"` 的形式指定一个值。我们将在[双向绑定](/components/two-way-binding/)一节中详细介绍这一点。
+一些指令属性期望我们以 `@directive:attribute="value"` 的形式指定一个值。我们将在[双向绑定](https://feiyun0112.github.io/blazor-university.zh-cn/components/two-way-binding/)一节中详细介绍这一点。
 
-**[下一篇 - 组件事件](/components/component-events)**
+**[下一篇 - 组件事件](https://feiyun0112.github.io/blazor-university.zh-cn/components/component-events)**

@@ -95,8 +95,8 @@ WASM：System.InvalidOperationException：“TemplatedComponents.Components.Coll
 
 在前面的示例中，我们只需要显式指定 `<ChildContent>`，因为我们显式使用了一个或多个其他渲染片段（页眉和页脚）。如果我们不想指定 `<Header>` 和 `<Footer>` 则无需显式命名 `<ChildContent>`，Blazor 将假定 `<MyComponent>` 和 `</MyComponent>` 之间的所有标记都是为 `ChildContent` 渲染片段。
 
-有关详细信息，请参阅[将数据传递给 RenderFragment](/templating-components-with-renderfragements/passing-data-to-a-renderfragement/)。
+有关详细信息，请参阅[将数据传递给 RenderFragment](https://feiyun0112.github.io/blazor-university.zh-cn/templating-components-with-renderfragements/passing-data-to-a-renderfragement/)。
 
 
 
-**[下一篇 - 创建一个 TabControl 组件](/templating-components-with-renderfragements/creating-a-tabcontrol)**
+**[下一篇 - 创建一个 TabControl 组件](https://feiyun0112.github.io/blazor-university.zh-cn/templating-components-with-renderfragements/creating-a-tabcontrol)**

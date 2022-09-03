@@ -47,4 +47,4 @@
 
 将充当级联参数的属性的可见性设置为私有是一种很好的做法。允许他们通过代码对使用者进行设置是不合逻辑的，因为该值实际上由设置 `Cascading` 值的父级所有。
 
-**[下一篇 - 按类型级联值](/components/cascading-values/cascading-values-by-type)**
+**[下一篇 - 按类型级联值](https://feiyun0112.github.io/blazor-university.zh-cn/components/cascading-values/cascading-values-by-type)**

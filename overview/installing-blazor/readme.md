@@ -7,5 +7,5 @@
 ![](InstallAspWorkload.jpg)
 
 
-**[下一篇 - 创建项目](/overview/creating-a-new-project)**
+**[下一篇 - 创建项目](https://feiyun0112.github.io/blazor-university.zh-cn/overview/creating-a-new-project)**
  

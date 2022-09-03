@@ -1,7 +1,7 @@
 > 原文链接：https://blazor-university.com/components/multi-threaded-rendering/invokeasync/
 
 # 线程安全的使用 InvokeAsync
-在我们的代码被非 UI 事件调用的情况下（例如[多线程渲染](/components/multi-threaded-rendering/)中介绍的那些），如果我们打算操纵状态，我们通常需要实现某种类型的线程锁定/同步。
+在我们的代码被非 UI 事件调用的情况下（例如[多线程渲染](https://feiyun0112.github.io/blazor-university.zh-cn/components/multi-threaded-rendering/)中介绍的那些），如果我们打算操纵状态，我们通常需要实现某种类型的线程锁定/同步。
 
 **回顾：** 非 UI 事件包括：
 
@@ -11,7 +11,7 @@
 
 为了避免手动编写线程安全代码，编写 WPF 应用程序的人可能会使用 `Dispatcher.Invoke` 来确保 UI 线程执行代码，而 WinForms 开发人员可能会使用窗体的 `Invoke` 方法。以这种方式调用的任何代码始终由特定线程（UI 线程）执行，这避免了使用线程同步代码。
 
-[StateHasChanged](/components/component-events/) 框架方法，用于告诉 Blazor 重新渲染我们的组件，不允许多个线程同时访问渲染进程。如果辅助线程调用 `StateHasChanged`，则会引发异常。
+[StateHasChanged](https://feiyun0112.github.io/blazor-university.zh-cn/components/component-events/) 框架方法，用于告诉 Blazor 重新渲染我们的组件，不允许多个线程同时访问渲染进程。如果辅助线程调用 `StateHasChanged`，则会引发异常。
 
 ```
 System.InvalidOperationException：当前线程未与 Dispatcher 关联。
@@ -181,7 +181,7 @@ private bool UseInvokeAsync;
 private System.Threading.ManualResetEvent Trigger = new System.Threading.ManualResetEvent(false);
 ```
 
-对于标记，我们需要使用[双向绑定](/components/two-way-binding/)将 `IsWorking` 字段绑定到 HTML `<input>` 元素。
+对于标记，我们需要使用[双向绑定](https://feiyun0112.github.io/blazor-university.zh-cn/components/two-way-binding/)将 `IsWorking` 字段绑定到 HTML `<input>` 元素。
 
 ```
 <div>
@@ -358,4 +358,4 @@ IsLoading = false;
 
 因此，尽管在通过 `InvokeAsync` 执行的同步代码中共享状态是安全的，但请记住，一旦您的代码引入了 `await`，它就允许其他线程有机会介入，直到 `await` 完成。
 
-**[下一篇 - 渲染树](/render-trees)**
+**[下一篇 - 渲染树](https://feiyun0112.github.io/blazor-university.zh-cn/render-trees)**

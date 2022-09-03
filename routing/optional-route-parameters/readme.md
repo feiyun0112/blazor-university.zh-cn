@@ -71,7 +71,7 @@ protected override void OnInitialized()
 [源代码](https://github.com/mrpmorris/blazor-university/tree/master/src/Routing/OptionalRouteParameters)
 
 
-当组件是 `@page` 并且我们的 Blazor 应用导航到呈现相同页面的新 URL 时，Blazor 不会创建组件的新实例来呈现页面，而是将其视为具有更改参数的相同页面.因为这个 `OnInitialized` 只会在第一次创建页面时执行。有关详细信息，请参阅[组件生命周期](/components/component-lifecycles/)。
+当组件是 `@page` 并且我们的 Blazor 应用导航到呈现相同页面的新 URL 时，Blazor 不会创建组件的新实例来呈现页面，而是将其视为具有更改参数的相同页面.因为这个 `OnInitialized` 只会在第一次创建页面时执行。有关详细信息，请参阅[组件生命周期](https://feiyun0112.github.io/blazor-university.zh-cn/components/component-lifecycles/)。
 
 上一个 URL  | 当前 URL | 是否执行 Counter.OnInit 
 --- | --- |---  
@@ -95,4 +95,4 @@ public async override Task SetParametersAsync(ParameterView parameters)
 
 ![](OptionalRouteParametersWithDefaultValues.gif)
 
-**[下一篇 - 404 – Not found](/routing/404-not-found)**
+**[下一篇 - 404 – Not found](https://feiyun0112.github.io/blazor-university.zh-cn/routing/404-not-found)**

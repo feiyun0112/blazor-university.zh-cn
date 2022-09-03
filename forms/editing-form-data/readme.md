@@ -93,4 +93,4 @@ Blazor 中有一个标准的输入组件集合，所有这些都来自基类 `In
 
 由于 razor 视图将 `FormData.SomeSelectProperty` 设置为 `SomeStateEnum.Active`，因此 `<select>` HTML 元素会将其选择默认为该值，即使它不是第一个指定的 `<option>`。
 
-**[下一篇 - 从 InputBase<T> 派生](/forms/descending-from-inputbase/)**
+**[下一篇 - 从 InputBase<T> 派生](https://feiyun0112.github.io/blazor-university.zh-cn/forms/descending-from-inputbase/)**

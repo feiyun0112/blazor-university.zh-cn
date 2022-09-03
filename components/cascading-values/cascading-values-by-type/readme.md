@@ -106,4 +106,4 @@ else
 
 当然，这个例子忽略了如何根据 `UserPreferences.LanguageCode` 翻译静态文本。
 
-**[下一篇 - 重写级联值](/components/cascading-values/overriding-cascaded-values)**
+**[下一篇 - 重写级联值](https://feiyun0112.github.io/blazor-university.zh-cn/components/cascading-values/overriding-cascaded-values)**

@@ -3,7 +3,7 @@
 # 更新 document title
 [源代码](https://github.com/mrpmorris/blazor-university/tree/master/src/JavaScriptInterop/UpdatingDocumentTitle)
 
-在[创建 Blazor 布局](/layouts/creating-a-blazor-layout/)部分中，我们看到了 Blazor 应用程序如何存在于 HTML（或 cshtml）文档中，并且只能控制主应用程序元素中的内容。
+在[创建 Blazor 布局](https://feiyun0112.github.io/blazor-university.zh-cn/layouts/creating-a-blazor-layout/)部分中，我们看到了 Blazor 应用程序如何存在于 HTML（或 cshtml）文档中，并且只能控制主应用程序元素中的内容。
 
 ![](Layout.png)
 
@@ -83,4 +83,4 @@ BlazorUniversity.setDocumentTitle = function (title) {
 ## 使用新的 Document 组件
 编辑 **/Pages** 文件夹中的每个页面，并添加我们的新元素 `<Document Title="Index"/>` - 但显然您希望在浏览器的选项卡中显示正确的文本。
 
-**[下一篇 - 传递 HTML 元素引用](/javascript-interop/calling-javascript-from-dotnet/passing-html-element-references/)**
+**[下一篇 - 传递 HTML 元素引用](https://feiyun0112.github.io/blazor-university.zh-cn/javascript-interop/calling-javascript-from-dotnet/passing-html-element-references/)**

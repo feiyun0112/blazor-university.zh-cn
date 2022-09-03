@@ -29,7 +29,7 @@ Blazor 如何解释我们传递给组件的值取决于我们正在设置的 `[P
 我个人的偏好是仅在传递文字字符串时才将参数值括在引号中。
 
 ## 字面量
-任何传递给 HTML 属性的值（不以 `@` 开头）都被视为字面量。将值传递给 Blazor 组件上的 `[Parameter]` 修饰属性时，情况并非总是如此（我将在[此处](/components/literals-expressions-and-directives/#inferred-expressions)详细介绍），但在大多数情况下，此规则适用。
+任何传递给 HTML 属性的值（不以 `@` 开头）都被视为字面量。将值传递给 Blazor 组件上的 `[Parameter]` 修饰属性时，情况并非总是如此（我将在[此处](https://feiyun0112.github.io/blazor-university.zh-cn/components/literals-expressions-and-directives/#inferred-expressions)详细介绍），但在大多数情况下，此规则适用。
 
 类型 |  Razor 视图 |  HTML
 ---  | --- | ---
@@ -54,7 +54,7 @@ HTML 属性  | `<input size=8/>`  | `<input size=”8″/>`
 }
 ```
 
-除了[推断表达式](/components/literals-expressions-and-directives/#inferred-expressions)（仅适用于组件上的参数，而不适用于 HTML 属性）之外，在渲染组件时，您在 HTML 中看到的内容实际上就是您在标记中编写的内容。
+除了[推断表达式](https://feiyun0112.github.io/blazor-university.zh-cn/components/literals-expressions-and-directives/#inferred-expressions)（仅适用于组件上的参数，而不适用于 HTML 属性）之外，在渲染组件时，您在 HTML 中看到的内容实际上就是您在标记中编写的内容。
 
 ## 表达式
 当我们需要渲染包含动态值而不是固定文字值的 HTML 时，我们需要使用表达式。我们通过在我们分配的值之前添加 `@` 符号来向 Blazor 表明我们正在使用表达式。然后，Blazor 将尝试将 `@` 后面的文本解释为一段有效的 C# 代码，例如成员名称或方法调用。
@@ -240,6 +240,6 @@ HeaderText 是一个文本字符串，HeaderVisible 是一个表达式。
 ## 指令
 指令是一个复杂的主题。因为本节是关于如何区分字面量、表达式和指令，所以这里不会深入介绍它们。
 
-相反，指令将在[指令](/components/literals-expressions-and-directives/directives)部分中介绍。
+相反，指令将在[指令](https://feiyun0112.github.io/blazor-university.zh-cn/components/literals-expressions-and-directives/directives)部分中介绍。
 
-**[下一篇 - 指令](/components/literals-expressions-and-directives/directives/)**
+**[下一篇 - 指令](https://feiyun0112.github.io/blazor-university.zh-cn/components/literals-expressions-and-directives/directives/)**

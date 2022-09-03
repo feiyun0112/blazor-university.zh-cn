@@ -15,7 +15,7 @@ Blazor 组件具有许多我们可以重写以影响应用程序行为的虚拟�
 
 当您在重写中调用 `base.SetParametersAsync(parameters)` 时，将为组件的 `[Parameter]` 属性分配它们的值。
 
-这也是分配默认参数值的正确位置。有关完整说明，请参阅[可选路由参数](/routing/optional-route-parameters/)。
+这也是分配默认参数值的正确位置。有关完整说明，请参阅[可选路由参数](https://feiyun0112.github.io/blazor-university.zh-cn/routing/optional-route-parameters/)。
 
 ## OnInitialized / OnInitializedAsync
 一旦 `ParameterCollection` 的状态被分配给组件的 `[Parameter]` 属性，这些方法就会被执行。这与 `SetParametersAsync` 一样有用，但可以使用组件的状态。
@@ -56,7 +56,7 @@ private async Task GetDataFromMultipleSourcesAsync()
 ***第一次渲染组件时不执行此方法。***
 
 ## BuildRenderTree
-此方法将组件的内容渲染为应渲染给用户的内存表示（[RenderTree](/components/render-trees/)）。
+此方法将组件的内容渲染为应渲染给用户的内存表示（[RenderTree](https://feiyun0112.github.io/blazor-university.zh-cn/components/render-trees/)）。
 
 ```
 <h1>People</h1>
@@ -69,10 +69,10 @@ private async Task GetDataFromMultipleSourcesAsync()
 
 如果我们的组件稍后在 `people` 中使用附加项重新渲染，则将创建 `ShowPersonDetails` 组件的新实例并将其添加到我们组件的渲染树中。如果 `people` 中的项目较少，那么之前创建的一些 `ShowPersonDetails` 组件实例将从我们组件的渲染树中丢弃，如果它们实现 `IDiposable`，则会对它们执行 `Dispose()`。
 
-**注意：** 为了提高渲染效率，在任何类型的循环中渲染标记时，请尽可能始终使用 [@key 指令](/components/render-trees/)。
+**注意：** 为了提高渲染效率，在任何类型的循环中渲染标记时，请尽可能始终使用 [@key 指令](https://feiyun0112.github.io/blazor-university.zh-cn/components/render-trees/)。
 
 ## OnAfterRender / OnAfterRenderAsync
-每次 Blazor 重新生成组件的[渲染树](/components/render-trees/)时，都会执行最后两个方法。这可能是由于组件的父级重新渲染、用户与组件交互（例如鼠标单击）或组件执行其 `StateHasChanged` 方法来调用重新渲染的结果。
+每次 Blazor 重新生成组件的[渲染树](https://feiyun0112.github.io/blazor-university.zh-cn/components/render-trees/)时，都会执行最后两个方法。这可能是由于组件的父级重新渲染、用户与组件交互（例如鼠标单击）或组件执行其 `StateHasChanged` 方法来调用重新渲染的结果。
 
 这些方法有一个名为 `firstRender` 的参数。此参数仅在当前组件上第一次调用该方法时为 `true`，从那里开始它将始终为 `false`。在需要附加组件连接的情况下（例如，通过 JavaScript），知道这是第一次渲染很有用。
 
@@ -202,6 +202,6 @@ protected override async Task OnParametersSetAsync()
   await Task.Delay(1000); 
 }
 ```
-有关如何安全地使用在同一组件上运行的不同线程的更多信息，请参阅[多线程渲染](/components/multi-threaded-rendering/)部分。
+有关如何安全地使用在同一组件上运行的不同线程的更多信息，请参阅[多线程渲染](https://feiyun0112.github.io/blazor-university.zh-cn/components/multi-threaded-rendering/)部分。
 
-**[下一篇 - 多线程渲染](/components/multi-threaded-rendering)**
+**[下一篇 - 多线程渲染](https://feiyun0112.github.io/blazor-university.zh-cn/components/multi-threaded-rendering)**

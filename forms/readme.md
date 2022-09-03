@@ -7,7 +7,7 @@
 
 虽然可以使用标准的 `<form>` HTML 元素创建表单，但我建议使用 `EditForm` 组件，因为它为我们提供了额外的功能。
 
-**注意：** 如果您还没有这样做，我建议您阅读[双向绑定指令](/components/two-way-binding/binding-directives/)部分。
+**注意：** 如果您还没有这样做，我建议您阅读[双向绑定指令](https://feiyun0112.github.io/blazor-university.zh-cn/components/two-way-binding/binding-directives/)部分。
 
 ## 表单模型
 `EditForm` 的关键特性是它的模型参数。该参数为组件提供了一个上下文，它可以使用它来启用用户界面绑定并确定用户的输入是否有效。
@@ -65,7 +65,7 @@ public class Person
   }
 }
 ```
-表单提交将在[处理表单提交](/forms/handling-form-submission/)部分更深入地介绍。
+表单提交将在[处理表单提交](https://feiyun0112.github.io/blazor-university.zh-cn/forms/handling-form-submission/)部分更深入地介绍。
 
 
-**[下一篇 - 编辑表单数据](/forms/editing-form-data/)**
+**[下一篇 - 编辑表单数据](https://feiyun0112.github.io/blazor-university.zh-cn/forms/editing-form-data/)**

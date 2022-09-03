@@ -186,4 +186,4 @@ BlazorUniversity.stopRandomGenerator = function (handle) {
 
 `Interval` 在我们的 `DotNetObjectReference` 被释放之前被取消，因此我们的 JavaScript 不会尝试使用无效的对象引用调用 .NET 对象上的方法。 根据良好的做法，我们在尝试清除之前检查 `GeneratorHandle` 成员是否已设置，以防在执行 `OnAfterRender*` 方法之前处理组件。
 
-**[下一篇 - 类型安全](/javascript-interop/calling-dotnet-from-javascript/type-safety/)**
+**[下一篇 - 类型安全](https://feiyun0112.github.io/blazor-university.zh-cn/javascript-interop/calling-dotnet-from-javascript/type-safety/)**

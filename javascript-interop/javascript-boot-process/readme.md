@@ -56,4 +56,4 @@ Blazor initialised: 42:22.690
 
 ![](JavaScriptBootProcessDiagram.png)
 
-**[下一篇 - 从 .NET 调用 JavaScript](/javascript-interop/calling-javascript-from-dotnet/)**
+**[下一篇 - 从 .NET 调用 JavaScript](https://feiyun0112.github.io/blazor-university.zh-cn/javascript-interop/calling-javascript-from-dotnet/)**

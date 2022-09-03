@@ -280,7 +280,7 @@ public partial class Index : IDisposable
 为了改善用户体验，我们的组件应该在每次添加新文本时真正将 `<textarea>` 滚动条滚动到底部。如果您不想自己解决这个问题，那么只需看看本节随附的项目，工作已经为您完成。如果您确实想解决它，这里有一些线索。
 
 1. 您将编写一些将控件作为参数并设置 `control.scrollTop = control.scrollHeight` 的 JavaScript。
-2. 每次我们的组件呈现后，您都需要[调用此 JavaScript](/javascript-interop/calling-javascript-from-dotnet/)。
-3. 您需要将 `<textarea>` 的 [ElementReference](/javascript-interop/calling-javascript-from-dotnet/passing-html-element-references/) 传递给 JavaScript。
+2. 每次我们的组件呈现后，您都需要[调用此 JavaScript](https://feiyun0112.github.io/blazor-university.zh-cn/javascript-interop/calling-javascript-from-dotnet/)。
+3. 您需要将 `<textarea>` 的 [ElementReference](https://feiyun0112.github.io/blazor-university.zh-cn/javascript-interop/calling-javascript-from-dotnet/passing-html-element-references/) 传递给 JavaScript。
 
-**[下一篇 - Scoped 依赖](/dependency-injection/dependency-lifetimes-and-scopes/scoped-dependencies/)**
+**[下一篇 - Scoped 依赖](https://feiyun0112.github.io/blazor-university.zh-cn/dependency-injection/dependency-lifetimes-and-scopes/scoped-dependencies/)**

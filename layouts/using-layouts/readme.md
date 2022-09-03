@@ -55,7 +55,7 @@
 @Body
 ```
 
-如果您现在运行该应用程序并单击**管理员用户**链接，您将看到仅由 `<h1>` 和 `<h2>` 组成的简陋页面。我们将在[嵌套布局](/layouts/nested-layouts/)部分解决这个问题，但现在我们将使用它作为练习，了解如何从页面本身显式指定布局。
+如果您现在运行该应用程序并单击**管理员用户**链接，您将看到仅由 `<h1>` 和 `<h2>` 组成的简陋页面。我们将在[嵌套布局](https://feiyun0112.github.io/blazor-university.zh-cn/layouts/nested-layouts/)部分解决这个问题，但现在我们将使用它作为练习，了解如何从页面本身显式指定布局。
 
 ## 为单个页面显式指定布局
 [源代码](https://github.com/mrpmorris/blazor-university/tree/master/src/Layouts/SpecifyingALayoutExplicitly)
@@ -69,6 +69,6 @@
 ```
 再次运行应用程序并单击**管理员用户**链接现在将使用应用程序的标准布局显示基本页面。
 
-**[下一篇 - 嵌套布局](/layouts/nested-layouts)**
+**[下一篇 - 嵌套布局](https://feiyun0112.github.io/blazor-university.zh-cn/layouts/nested-layouts)**
 
  

@@ -1,7 +1,7 @@
 > 原文链接：https://blazor-university.com/javascript-interop/calling-dotnet-from-javascript/type-safety/
 
 # 类型安全
-在[从 JavaScript 调用 .NET](/javascript-interop/calling-dotnet-from-javascript/) 部分中，您可能已经注意到我们的 JavaScript 的第 6 行在将随机生成的数字传递给 .NET 之前调用了 `toString()`
+在[从 JavaScript 调用 .NET](https://feiyun0112.github.io/blazor-university.zh-cn/javascript-interop/calling-dotnet-from-javascript/) 部分中，您可能已经注意到我们的 JavaScript 的第 6 行在将随机生成的数字传递给 .NET 之前调用了 `toString()`
 
 ```
 var BlazorUniversity = BlazorUniversity || {};
@@ -57,4 +57,4 @@ dotNetObject.invokeMethodAsync('OurInvokableDotNetMethod', 'FirstValue');
 dotNetObject.invokeMethodAsync('OurInvokableDotNetMethod', 200);
 ```
 
-**[下一篇 - 调用静态 .NET 方法](/javascript-interop/calling-dotnet-from-javascript/calling-static-dotnet-methods/)**
+**[下一篇 - 调用静态 .NET 方法](https://feiyun0112.github.io/blazor-university.zh-cn/javascript-interop/calling-dotnet-from-javascript/calling-static-dotnet-methods/)**

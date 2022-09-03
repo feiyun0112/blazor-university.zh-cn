@@ -87,4 +87,4 @@ protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Renderin
 然后使用差分渲染树来更新浏览器中的实际 HTML DOM。
 
 
-**[下一篇 - 增量渲染树证明](/render-trees/incremental-rendertree-proof)**
+**[下一篇 - 增量渲染树证明](https://feiyun0112.github.io/blazor-university.zh-cn/render-trees/incremental-rendertree-proof)**

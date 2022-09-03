@@ -2,7 +2,7 @@
 
 # 拥有多个依赖项：正确的方式
 
-在[上一节](/dependency-injection/component-scoped-dependencies/owning-multiple-dependencies-the-wrong-way/)中，我们看到了将多个拥有的依赖项注入组件的错误方法。本节将演示解决问题的正确方法。
+在[上一节](https://feiyun0112.github.io/blazor-university.zh-cn/dependency-injection/component-scoped-dependencies/owning-multiple-dependencies-the-wrong-way/)中，我们看到了将多个拥有的依赖项注入组件的错误方法。本节将演示解决问题的正确方法。
 
 如前所述，`OwningComponentBase<T>` 类组件将创建自己的依赖容器并在该容器中解析 `T` 的实例，因此 `T` 的实例对于我们的组件是私有的。
 
@@ -43,7 +43,7 @@ public class OwnedDependency1 : IOwnedDependency1
 }
 ```
 
-将接口 + 它们的实现类注册为 `Scoped`（如果需要提醒您，请参阅[比较依赖范围](/dependency-injection/dependency-lifetimes-and-scopes/comparing-dependency-scopes/)）。
+将接口 + 它们的实现类注册为 `Scoped`（如果需要提醒您，请参阅[比较依赖范围](https://feiyun0112.github.io/blazor-university.zh-cn/dependency-injection/dependency-lifetimes-and-scopes/comparing-dependency-scopes/)）。
 
 接下来，编辑 **Index.razor** 页面，以便我们应用程序的用户可以通过单击复选框来切换组件。
 

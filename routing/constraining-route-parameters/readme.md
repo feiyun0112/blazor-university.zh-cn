@@ -82,4 +82,4 @@ Blazor 约束不支持以下约束类型，但希望将来会支持：
 
 
 
-**[下一篇 - 可选路由参数](/routing/optional-route-parameters)**
+**[下一篇 - 可选路由参数](https://feiyun0112.github.io/blazor-university.zh-cn/routing/optional-route-parameters)**

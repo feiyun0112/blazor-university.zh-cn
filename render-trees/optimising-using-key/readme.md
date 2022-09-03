@@ -11,7 +11,7 @@
 
 ![](CueCardDOM.png)
 
-使用[增量渲染树证明](/components/render-trees/incremental-rendertree-proof)作为起点，编辑 **/Pages/Index.razor** 并输入以下标记。
+使用[增量渲染树证明](https://feiyun0112.github.io/blazor-university.zh-cn/components/render-trees/incremental-rendertree-proof)作为起点，编辑 **/Pages/Index.razor** 并输入以下标记。
 
 
 ```
@@ -199,4 +199,4 @@ HTML 元素已针对每个人进行了更改。如果 Blazor 能够检测到元�
 
 用于 `@key` 的值可以是任何类型的对象。我们可以使用 `Person` 实例本身，或者，如果列表中的实例会发生变化，那么我们可以使用 `Person.ID` 之类的东西。
 
-**[下一篇 - 使用 RenderFragments 模板化组件](/templating-components-with-renderfragements)**
+**[下一篇 - 使用 RenderFragments 模板化组件](https://feiyun0112.github.io/blazor-university.zh-cn/templating-components-with-renderfragements)**

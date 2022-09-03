@@ -45,4 +45,4 @@ Welcome to your new app.
 在另一个页面中嵌入页面时，Blazor 将其视为一个组件。嵌入页面上的 `LayoutAttribute` 将被忽略，因为 Blazor 已经有一个显式容器 - 包含它的父组件。
 
 
-  **[下一篇 - 创建组件](/components/creating-a-component)**
+  **[下一篇 - 创建组件](https://feiyun0112.github.io/blazor-university.zh-cn/components/creating-a-component)**

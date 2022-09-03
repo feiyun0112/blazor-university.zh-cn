@@ -63,4 +63,4 @@ WASM: System.InvalidOperationException: Object of type ‘OneWayBinding.Client.C
 
 在继续学习双向绑定的工作原理之前，我们首先需要了解组件事件和指令。
 
-**[下一篇 - 字面量、表达式和指令](/components/literals-expressions-and-directives)**
+**[下一篇 - 字面量、表达式和指令](https://feiyun0112.github.io/blazor-university.zh-cn/components/literals-expressions-and-directives)**

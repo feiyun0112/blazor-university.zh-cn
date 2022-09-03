@@ -3,11 +3,11 @@
 # 双向绑定
 [源代码](https://github.com/mrpmorris/blazor-university/tree/master/src/Components/TwoWayBinding)
 
-**注意：** 如果您还没有这样做过，请在继续本节之前先执行[单向绑定](/components/one-way-binding/)中的步骤。
+**注意：** 如果您还没有这样做过，请在继续本节之前先执行[单向绑定](https://feiyun0112.github.io/blazor-university.zh-cn/components/one-way-binding/)中的步骤。
 
 到目前为止，我们有一个包含嵌入组件的页面，并且我们组件的部分状态是从其宿主视图（**Counter** 页面）以名为 `CurrentCounterValue` 的参数的形式传递的。但是，如果我们还希望组件能够更新传递给它的状态呢？
 
-如果您还不熟悉 `EventCallback<T>` 类，请阅读[组件事件](/components/component-events/)。理想情况下，您还应该熟悉使用 [Component 指令](/components/literals-expressions-and-directives/)，并且为了更深入地了解绑定变体，您可能还希望熟悉[浏览器 DOM 事件](/components/component-events/browser-dom-events/)。
+如果您还不熟悉 `EventCallback<T>` 类，请阅读[组件事件](https://feiyun0112.github.io/blazor-university.zh-cn/components/component-events/)。理想情况下，您还应该熟悉使用 [Component 指令](https://feiyun0112.github.io/blazor-university.zh-cn/components/literals-expressions-and-directives/)，并且为了更深入地了解绑定变体，您可能还希望熟悉[浏览器 DOM 事件](https://feiyun0112.github.io/blazor-university.zh-cn/components/component-events/browser-dom-events/)。
 
 就像我们对 **Counter** 页面所做的那样，通过添加一个带有 `onclick` 事件的按钮来更新 `CurrentCounterValue` 的值。
 
@@ -112,4 +112,4 @@ builder.CloseComponent();
 - **第 5 行** 执行从 `Counter.currentCount` 到 `MyFirstComponent.CurrentCounterValue` 的单向绑定。
 - **第 15 行** 每当执行 `MyFirstComponent.CurrentCounterValueChanged` 时，就会更新 `Counter.currentCount`。
 
-**[下一篇 - 绑定指令](/components/two-way-binding/binding-directives)**
+**[下一篇 - 绑定指令](https://feiyun0112.github.io/blazor-university.zh-cn/components/two-way-binding/binding-directives)**

@@ -39,4 +39,4 @@ Blazor 将为任何 `ComponentBase` 的子类使用 `LayoutAttribute`。不仅�
 
 ![](CascadingLayouts.png)
 
-**[下一篇 - 组件](/components)**
+**[下一篇 - 组件](https://feiyun0112.github.io/blazor-university.zh-cn/components)**

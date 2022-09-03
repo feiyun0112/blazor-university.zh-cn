@@ -142,4 +142,4 @@ void ActivatePage(TabPage page)
 }
 ```
 
-**[下一篇 - 将数据传递给 RenderFragment](/templating-components-with-renderfragements/passing-data-to-a-renderfragement)**
+**[下一篇 - 将数据传递给 RenderFragment](https://feiyun0112.github.io/blazor-university.zh-cn/templating-components-with-renderfragements/passing-data-to-a-renderfragement)**

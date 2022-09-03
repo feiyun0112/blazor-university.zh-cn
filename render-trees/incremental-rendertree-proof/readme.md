@@ -130,4 +130,4 @@ Welcome to your new app.
 
 我们可以看到现有元素被重用，因为元素的 `originalValue` 属性不是由 Blazor 生成的，但它们仍然存在。由 Blazor 新创建的新元素没有 `originalValue` 属性。
 
-**[下一篇 - 使用 @key 优化](/render-trees/optimising-using-key)**
+**[下一篇 - 使用 @key 优化](https://feiyun0112.github.io/blazor-university.zh-cn/render-trees/optimising-using-key)**

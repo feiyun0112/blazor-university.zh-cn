@@ -65,4 +65,4 @@ public void WhenSigningUp_ThenSendsAnEmail()
 ```
 
 
-**[下一篇 - 将依赖项注入 Blazor 组件](/dependency-injection/injecting-dependencies-into-blazor-components/)**
+**[下一篇 - 将依赖项注入 Blazor 组件](https://feiyun0112.github.io/blazor-university.zh-cn/dependency-injection/injecting-dependencies-into-blazor-components/)**

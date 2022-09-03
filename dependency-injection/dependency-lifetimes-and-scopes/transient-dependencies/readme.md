@@ -165,4 +165,4 @@ Blazor 中的依赖注入容器一直存在，直到用户关闭浏览器中包�
 
 实现 `IDisposable` 的类不应注册为 `Transient`，除非使用拥有自己 `Scope` 的组件，并且您确切地知道自己在做什么（您已阅读 Scoped 依赖项部分）。
 
-**[下一篇 - Singleton 依赖](/dependency-injection/dependency-lifetimes-and-scopes/singleton-dependencies/)**
+**[下一篇 - Singleton 依赖](https://feiyun0112.github.io/blazor-university.zh-cn/dependency-injection/dependency-lifetimes-and-scopes/singleton-dependencies/)**

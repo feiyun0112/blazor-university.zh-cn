@@ -60,7 +60,7 @@ Blazor Wasm 尚不支持多个线程，因此所有处理都发生在 UI 线程�
 
 .NET 代码执行完成后，Blazor 将重新渲染页面上的组件，然后将 HTML 的增量包发送回客户端的浏览器，以便它可以更新其显示，而无需重新加载整个页面。
 
-**注意：** 稍后将深入介绍[渲染树](/components/render-trees/)。
+**注意：** 稍后将深入介绍[渲染树](https://feiyun0112.github.io/blazor-university.zh-cn/components/render-trees/)。
 
 如果我们运行一个标准的 Blazor 应用程序，单击菜单中的 **Counter** 链接，然后单击 **Click me** 按钮，我们可以观察到与服务器之间的 SignalR 数据通信。
 
@@ -114,4 +114,4 @@ DispatchBrowserEvent
 
 你可以在[这里](https://devblogs.microsoft.com/aspnet/mobile-blazor-bindings-experiment/)找到官方公告。
 
-**[下一篇 - 安装 Blazor](/overview/installing-blazor)**
+**[下一篇 - 安装 Blazor](https://feiyun0112.github.io/blazor-university.zh-cn/overview/installing-blazor)**

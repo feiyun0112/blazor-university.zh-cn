@@ -3,7 +3,7 @@
 # 替换子组件的属性
 [源代码](https://blazor-university.com/components/replacing-attributes-on-child-components/)
 
-到目前为止，我们已经了解了如何创建[代码生成的属性](/components/code-generated-html-attributes/)，以及如何[捕获意外参数](/components/capturing-unexpected-parameters/)。除了这两种技术之外，Blazor 还允许我们重写/替换子组件中的现有属性。
+到目前为止，我们已经了解了如何创建[代码生成的属性](https://feiyun0112.github.io/blazor-university.zh-cn/components/code-generated-html-attributes/)，以及如何[捕获意外参数](https://feiyun0112.github.io/blazor-university.zh-cn/components/capturing-unexpected-parameters/)。除了这两种技术之外，Blazor 还允许我们重写/替换子组件中的现有属性。
 
 采取以下页面标记：
 
@@ -25,7 +25,7 @@
 }
 ```
 
-正如我们之前在[代码生成的属性](/components/code-generated-html-attributes/)中看到的那样，`ChildComponent` 会将使用者提供的属性（第一个和第二个）捕获到我们的参数 `AllOtherAttributes` 中，并且对 `@attributes=AllOtherAttributes` 的调用将指示 Blazor 在 `Dictionary<string, object>` 中输出名称/值对。前面的代码将输出以下 HTML。
+正如我们之前在[代码生成的属性](https://feiyun0112.github.io/blazor-university.zh-cn/components/code-generated-html-attributes/)中看到的那样，`ChildComponent` 会将使用者提供的属性（第一个和第二个）捕获到我们的参数 `AllOtherAttributes` 中，并且对 `@attributes=AllOtherAttributes` 的调用将指示 Blazor 在 `Dictionary<string, object>` 中输出名称/值对。前面的代码将输出以下 HTML。
 
 ```
 <div first="consumer-value-1" second="consumer-value-2">
@@ -33,7 +33,7 @@
 </div>
 ```
 ## 替换子属性
-如果我们想为 `first` 和 `second` 指定默认值以在使用者不提供它们时输出怎么办？如果未设置值，则可能很容易重写 [SetParametersAsync](/components/component-lifecycles/) 并插入值，但有一种更简单的方法！
+如果我们想为 `first` 和 `second` 指定默认值以在使用者不提供它们时输出怎么办？如果未设置值，则可能很容易重写 [SetParametersAsync](https://feiyun0112.github.io/blazor-university.zh-cn/components/component-lifecycles/) 并插入值，但有一种更简单的方法！
 
 我们所要做的就是写出我们的默认值作为子组件标记的一部分，`@attributes=` 指令将使用使用者传递的任何值覆盖它们。因此，如果我们更改子组件以指定一些默认属性值，如下所示：
 
@@ -135,4 +135,4 @@
 
 ![](RIP.jpg)
 
-**[下一篇 - 组件生命周期](/components/component-lifecycles)**
+**[下一篇 - 组件生命周期](https://feiyun0112.github.io/blazor-university.zh-cn/components/component-lifecycles)**

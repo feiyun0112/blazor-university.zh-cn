@@ -36,4 +36,4 @@ Blazor 布局类似于 ASP Webforms 母版页的概念，与 ASP MVC 中的 Razo
 </footer>
 ```
 
-**[下一篇 - 创建 Blazor 布局](/layouts/creating-a-blazor-layout)**
+**[下一篇 - 创建 Blazor 布局](https://feiyun0112.github.io/blazor-university.zh-cn/layouts/creating-a-blazor-layout)**

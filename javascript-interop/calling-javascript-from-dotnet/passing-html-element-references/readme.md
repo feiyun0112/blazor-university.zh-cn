@@ -3,7 +3,7 @@
 # 传递 HTML 元素引用
 [源代码](https://github.com/mrpmorris/blazor-university/tree/master/src/JavaScriptInterop/HtmlElementReferences)
 
-在编写 Blazor 应用程序时，不鼓励对文档对象模型 (DOM) 进行操作，因为它可能会干扰其[增量渲染树](/components/render-trees/incremental-rendertree-proof/)，对 HTML 的任何更改都应在我们组件内的 .NET 代码中进行管理。
+在编写 Blazor 应用程序时，不鼓励对文档对象模型 (DOM) 进行操作，因为它可能会干扰其[增量渲染树](https://feiyun0112.github.io/blazor-university.zh-cn/components/render-trees/incremental-rendertree-proof/)，对 HTML 的任何更改都应在我们组件内的 .NET 代码中进行管理。
 
 有时我们可能希望继续让 JavaScript 与我们生成的 HTML 交互。实现这一点的标准 JavaScript 方法是给我们的 HTML 元素一个 id，并让 JavaScript 使用 `document.getElementById('someId')` 来定位它。在静态生成的 HTML 页面中，这非常简单，但是当通过组合许多组件的输出来动态创建页面时，很难确保 ID 在所有组件中都是唯一的。 Blazor 使用 `@ref` 元素标记和 `ElementReference` 结构解决了这个问题。
 
@@ -137,7 +137,7 @@ Enter your name
 
 **注意：不要过早使用元素引用！**
 
-正如我们在[渲染树](/render-trees/)部分中看到的，在其渲染阶段，Blazor 根本不会更新浏览器 DOM。只有在所有组件的渲染完成后，Blazor 才会比较新的和以前的渲染树，然后用尽可能少的更改更新 DOM。
+正如我们在[渲染树](https://feiyun0112.github.io/blazor-university.zh-cn/render-trees/)部分中看到的，在其渲染阶段，Blazor 根本不会更新浏览器 DOM。只有在所有组件的渲染完成后，Blazor 才会比较新的和以前的渲染树，然后用尽可能少的更改更新 DOM。
 
 这意味着在构建渲染树时，使用 `@ref `引用的元素可能还不存在于浏览器 DOM 中——因此任何通过 JavaScript 与它们交互的尝试都将失败。因此，我们不应该尝试在除 `OnAfterRender` 或 `OnAfterRenderAsync` 之外的任何组件生命周期方法中使用 `ElementReference` 的实例，并且由于组件的参数是在构建渲染树期间设置的，我们不能将 `ElementReference` 作为参数传递，因为它是在组件的生命周期中为时过早。当然，从用户事件（例如按钮单击）访问引用是可以接受的，因为该页面已经生成为 HTML。
 
@@ -241,4 +241,4 @@ Enter your name
 
 **注意：**未来的 Blazor 计划自动创建 `ElementReference` 成员。
 
-**[下一篇 - 从 JavaScript 调用 .NET](/javascript-interop/calling-dotnet-from-javascript/)**
+**[下一篇 - 从 JavaScript 调用 .NET](https://feiyun0112.github.io/blazor-university.zh-cn/javascript-interop/calling-dotnet-from-javascript/)**

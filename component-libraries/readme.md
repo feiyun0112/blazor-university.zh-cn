@@ -42,4 +42,4 @@
 
 
 
-**[下一篇 - JavaScript 互操作](/javascript-interop/)**
+**[下一篇 - JavaScript 互操作](https://feiyun0112.github.io/blazor-university.zh-cn/javascript-interop/)**

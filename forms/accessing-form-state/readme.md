@@ -28,7 +28,7 @@
 
 如果我们想将 CSS 无效类应用到输入组本身，我们可以使用从 `<EditForm>` 组件传递给我们的 `EditContext`。
 
-`<EditForm>` 的 `ChildContent` 参数是 `RenderFragment<EditContext>`，这意味着 `EditContext` 实例通过名为 `context` 的变量（或我们告诉 Blazor 使用的任何别名）传递到其内部内容。有关更多信息，请参阅[使用 RenderFragments 模板化组件](/templating-components-with-renderfragements/)。
+`<EditForm>` 的 `ChildContent` 参数是 `RenderFragment<EditContext>`，这意味着 `EditContext` 实例通过名为 `context` 的变量（或我们告诉 Blazor 使用的任何别名）传递到其内部内容。有关更多信息，请参阅[使用 RenderFragments 模板化组件](https://feiyun0112.github.io/blazor-university.zh-cn/templating-components-with-renderfragements/)。
 
 ```
 <EditForm Model=@MyContact Context="CurrentEditContext">
@@ -71,4 +71,4 @@
 
 ![输入仅勾勒出外部元素](PrependedEmailError3.jpg)
 
-**[下一篇 - 编写自定义验证](/forms/writing-custom-validation/)**
+**[下一篇 - 编写自定义验证](https://feiyun0112.github.io/blazor-university.zh-cn/forms/writing-custom-validation/)**

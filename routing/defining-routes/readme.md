@@ -48,6 +48,6 @@ public class Index : Microsoft.AspNetCore.Components.ComponentBase
 <h1>Hello, world!</h1>
 ```
 
-页面也可以在[组件库](/component-libraries)中定义。
+页面也可以在[组件库](https://feiyun0112.github.io/blazor-university.zh-cn/component-libraries)中定义。
 
-**[下一篇 - 路由参数](/routing/route-parameters)**
+**[下一篇 - 路由参数](https://feiyun0112.github.io/blazor-university.zh-cn/routing/route-parameters)**

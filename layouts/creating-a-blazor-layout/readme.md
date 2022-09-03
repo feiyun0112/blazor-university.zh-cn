@@ -21,9 +21,9 @@
 </div>
 ```
 
-请注意，这不是整个 HTML 页面。 Blazor 布局仅适用于 Blazor 在 `wwwroot\index.html` 页面中定义的 HTML 部分，在默认的 Blazor 应用程序中，这是 `<app>` 元素中的所有内容。 目前无法在此范围之外更改 HTML 元素的属性，除非使用 [JavaScript 互操作](/javascript-interop/)。
+请注意，这不是整个 HTML 页面。 Blazor 布局仅适用于 Blazor 在 `wwwroot\index.html` 页面中定义的 HTML 部分，在默认的 Blazor 应用程序中，这是 `<app>` 元素中的所有内容。 目前无法在此范围之外更改 HTML 元素的属性，除非使用 [JavaScript 互操作](https://feiyun0112.github.io/blazor-university.zh-cn/javascript-interop/)。
 
 ![](Layout.png)
 
-**[下一篇 - 使用布局](/layouts/using-layouts)**
+**[下一篇 - 使用布局](https://feiyun0112.github.io/blazor-university.zh-cn/layouts/using-layouts)**
  

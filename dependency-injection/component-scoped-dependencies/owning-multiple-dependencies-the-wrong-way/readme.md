@@ -1,7 +1,7 @@
 > 原文链接：https://blazor-university.com/dependency-injection/component-scoped-dependencies/owning-multiple-dependencies-the-wrong-way/
 
 # 拥有多个依赖项：错误的方式
-[`OwningComponentBase<T>`](/dependency-injection/component-scoped-dependencies/owningcomponentbase-generic/) 类是一个合适的解决方案，当我们需要我们的组件只拥有一个独立的依赖实例（以及它所依赖的任何 Scoped/Transient 依赖）时。但是，有时我们需要我们的组件拥有多个依赖项。
+[`OwningComponentBase<T>`](https://feiyun0112.github.io/blazor-university.zh-cn/dependency-injection/component-scoped-dependencies/owningcomponentbase-generic/) 类是一个合适的解决方案，当我们需要我们的组件只拥有一个独立的依赖实例（以及它所依赖的任何 Scoped/Transient 依赖）时。但是，有时我们需要我们的组件拥有多个依赖项。
 
 本节将演示实现此目标的错误方法，然后下一节将演示如何正确实现它。
 
@@ -12,7 +12,7 @@
 
 在 `OwningComponentBase<T>` 的派生类上使用 `@inject` 指令将不会从组件自己的注入容器中注入依赖项。
 
-**注意：** 如果您还没有这样做，如果您还不熟悉此类如何创建自己的注入容器，请阅读有关 [OwningComponentBase<T>](/dependency-injection/component-scoped-dependencies/owningcomponentbase-generic/) 的部分。
+**注意：** 如果您还没有这样做，如果您还不熟悉此类如何创建自己的注入容器，请阅读有关 [OwningComponentBase<T>](https://feiyun0112.github.io/blazor-university.zh-cn/dependency-injection/component-scoped-dependencies/owningcomponentbase-generic/) 的部分。
 
 ## 示例
 对于本练习，我们将创建一个新的 Blazor 应用程序，该应用程序将演示通过 `OwningComponentBase<T>` 中的 `T` 和 `@inject` 指令为我们的组件提供的服务的不同生命周期。
@@ -108,6 +108,6 @@ builder.Services.AddScoped<IInjectedDependency, InjectedDependency>();
 
 ![](OwningMultipleDependenciesTheWrongWay.jpg)
 
-组件拥有多个依赖项的正确方法将在有关非泛型 [OwningComponentBase](/dependency-injection/component-scoped-dependencies/owning-multiple-dependencies-the-right-way/) 类的部分中介绍。
+组件拥有多个依赖项的正确方法将在有关非泛型 [OwningComponentBase](https://feiyun0112.github.io/blazor-university.zh-cn/dependency-injection/component-scoped-dependencies/owning-multiple-dependencies-the-right-way/) 类的部分中介绍。
 
-**[下一篇 - 拥有多个依赖项：正确的方式](/dependency-injection/component-scoped-dependencies/owning-multiple-dependencies-the-right-way/)**
+**[下一篇 - 拥有多个依赖项：正确的方式](https://feiyun0112.github.io/blazor-university.zh-cn/dependency-injection/component-scoped-dependencies/owning-multiple-dependencies-the-right-way/)**

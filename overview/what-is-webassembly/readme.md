@@ -28,4 +28,4 @@ Samsung Internet	 |	7.2
 
 数据来自 [CanIUse.com](https://caniuse.com/#search=wasm)
 
-**[下一篇 - Blazor 托管模型](/overview/blazor-hosting-models)**
+**[下一篇 - Blazor 托管模型](https://feiyun0112.github.io/blazor-university.zh-cn/overview/blazor-hosting-models)**

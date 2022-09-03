@@ -3,7 +3,7 @@
 # 绑定指令
 [源代码](https://github.com/mrpmorris/blazor-university/tree/master/src/Components/BindingDirectives)
 
-我们之前介绍了[指令](/components/literals-expressions-and-directives/directives/)——如果您不熟悉指令，请在继续之前阅读有关它们的部分。
+我们之前介绍了[指令](https://feiyun0112.github.io/blazor-university.zh-cn/components/literals-expressions-and-directives/directives/)——如果您不熟悉指令，请在继续之前阅读有关它们的部分。
 
 我们之前介绍了指令和指令属性。在本节中，我们将通过演示如何使用双向绑定来为指令属性分配值。
 
@@ -27,7 +27,7 @@
 尽管没有理由特别将这些属性值限制为双向绑定，但碰巧的是，目前 Blazor 框架中唯一使用此功能的地方恰好是双向绑定，这就是本节放在双向绑定部分下方的原因。
 
 ## 入门
-**注意：** 尽管为了简单起见，我们将在此处使用 HTML `<input>` 元素，但为了获得更丰富的用户体验（添加验证等），我建议在 `<EditForm>` 组件中使用 Blazor `<Input*>` 组件（InputDate 等）。这些在[表单](/forms)一节中介绍。
+**注意：** 尽管为了简单起见，我们将在此处使用 HTML `<input>` 元素，但为了获得更丰富的用户体验（添加验证等），我建议在 `<EditForm>` 组件中使用 Blazor `<Input*>` 组件（InputDate 等）。这些在[表单](https://feiyun0112.github.io/blazor-university.zh-cn/forms)一节中介绍。
 
 首先，我们需要一个在 `@code` 部分中定义了以下成员的页面，因此我们需要绑定一些内容：
 
@@ -87,9 +87,9 @@
 
 当应用程序运行时，输入 ISO 格式的日期（例如 **1969-07-21**）。虽然日期在 `<label>` 中显示为 **July 21, 1969**，但 `<input>` 控件以我们在 `@bind-value:format="yyyy-MM-dd"` 中指定的 ISO 显示它。
 
-**注意：** 输入的任何与指定格式不匹配的值都将被丢弃。因此，我们不能设置 `@bind-value:event="oninput"`，因为 Blazor 会尝试在每次按键时解析输入，但输入的值不可能在单次按键后有效，因此输入值将干脆消失。这是我建议在编辑数据时在 [EditForm](/forms) 中使用 Blazor `<Input*>` 组件的原因之一，因为这使我们能够使用诸如 `<InputDate>` 之类的组件。
+**注意：** 输入的任何与指定格式不匹配的值都将被丢弃。因此，我们不能设置 `@bind-value:event="oninput"`，因为 Blazor 会尝试在每次按键时解析输入，但输入的值不可能在单次按键后有效，因此输入值将干脆消失。这是我建议在编辑数据时在 [EditForm](https://feiyun0112.github.io/blazor-university.zh-cn/forms) 中使用 Blazor `<Input*>` 组件的原因之一，因为这使我们能够使用诸如 `<InputDate>` 之类的组件。
 
-如 [Descending from InputBase<T>](/forms/descending-from-inputbase/) 部分所述，Blazor 输入组件具有一对互补的受保护方法，用于将绑定值转换为字符串和从字符串转换为字符串。
+如 [Descending from InputBase<T>](https://feiyun0112.github.io/blazor-university.zh-cn/forms/descending-from-inputbase/) 部分所述，Blazor 输入组件具有一对互补的受保护方法，用于将绑定值转换为字符串和从字符串转换为字符串。
 
 ### 工作原理
 `@bind` 指令不会添加代码来直接绑定到我们的成员，而是简单地将其转换为字符串值/从字符串值转换。相反，它通过 `BindConverter` 重定向当前值的表示和输入值的解析。
@@ -149,4 +149,4 @@ private CultureInfo Turkish = CultureInfo.GetCultureInfo("tr-TR");
 
 如果您还没有听说过**土耳其测试**，那么我建议您阅读[这篇优秀的文章](http://www.moserware.com/2008/02/does-your-code-pass-turkey-test.html)。
 
-**[下一篇 - 级联值](/components/cascading-values)**
+**[下一篇 - 级联值](https://feiyun0112.github.io/blazor-university.zh-cn/components/cascading-values)**

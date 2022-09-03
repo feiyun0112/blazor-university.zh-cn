@@ -43,7 +43,7 @@
 
 ## 在没有编码参数的情况下捕获值
 
-之前我们看到了如何利用[属性展开](/components/code-generated-html-attributes/)以编程方式生成 HTML 属性及其值。这涉及将 `Dictionary<string, object>` 的值分配给一个特别命名的 `@attributes` 属性。
+之前我们看到了如何利用[属性展开](https://feiyun0112.github.io/blazor-university.zh-cn/components/code-generated-html-attributes/)以编程方式生成 HTML 属性及其值。这涉及将 `Dictionary<string, object>` 的值分配给一个特别命名的 `@attributes` 属性。
 
 在不匹配参数的情况下捕获属性值的工作方式类似。我们只需创建一个 `Dictionary<string, object>` 类型的属性，将其装饰为 `[Parameter]`，但在 `Parameter` 中我们需要指定 `CaptureUnmatchedValues = true`。
 
@@ -74,4 +74,4 @@
 
 ![](CaptureUnmatchedValues.gif)
 
-**[下一篇 - 替换子组件上的属性](/components/replacing-attributes-on-child-components)**
+**[下一篇 - 替换子组件上的属性](https://feiyun0112.github.io/blazor-university.zh-cn/components/replacing-attributes-on-child-components)**

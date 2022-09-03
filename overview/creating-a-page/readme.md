@@ -20,7 +20,7 @@ Razor 页面是一个独立的视图。我们可以包含 HTML 和 Razor 视图�
 }
 ```
 
-第一行标识呈现此页面内容所需的 URL。[路由](/routing/)部分将介绍更高级的路由技术。
+第一行标识呈现此页面内容所需的 URL。[路由](https://feiyun0112.github.io/blazor-university.zh-cn/routing/)部分将介绍更高级的路由技术。
 
 接下来是一些标准的 HTML，一个带有页面标题的 H1 和一个带有一些内容的段落。就像使用标准 ASP.NET Razor 页面一样，可以通过使用 `@` 符号对其进行转义来插入可编程内容。在本示例中，我们将显示 `currentCount` 私有成员的值。
 
@@ -56,4 +56,4 @@ Razor 页面是一个独立的视图。我们可以包含 HTML 和 Razor 视图�
 
 ![](CounterInteraction.gif)
 
-**[下一篇 - 布局](/layouts)**
+**[下一篇 - 布局](https://feiyun0112.github.io/blazor-university.zh-cn/layouts)**

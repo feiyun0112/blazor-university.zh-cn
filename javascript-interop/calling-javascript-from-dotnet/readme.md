@@ -132,4 +132,4 @@ namespace PassingComplexObjectsToJavaScript.Models
 }
 ```
 
-**[下一篇 - 更新 document title](/javascript-interop/calling-javascript-from-dotnet/updating-the-document-title/)**
+**[下一篇 - 更新 document title](https://feiyun0112.github.io/blazor-university.zh-cn/javascript-interop/calling-javascript-from-dotnet/updating-the-document-title/)**
