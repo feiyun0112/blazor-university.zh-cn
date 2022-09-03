@@ -1,4 +1,4 @@
-> Blazor University 中文版，英文原版请访问： https://blazor-university.com/
+> Blazor University 中文版，英文原版请访问： [https://blazor-university.com/](https://blazor-university.com/)
 
 ![](BlazorLogoLarge.png)
 
@@ -61,7 +61,7 @@
 
 - [表单](forms)
     - [编辑表单数据](/forms/editing-form-data/)
-    - [从 InputBase<T> 派生](/forms/descending-from-inputbase/)
+    - [从 InputBase 派生](/forms/descending-from-inputbase/)
     - [验证](/forms/validation/)
     - [处理表单提交](/forms/handling-form-submission/)
     - [EditContext、FieldIdentifiers 和 FieldState](/forms/editcontext-fieldidentifiers-and-fieldstate/)
@@ -88,6 +88,6 @@
         - [Scoped 依赖](/dependency-injection/dependency-lifetimes-and-scopes/scoped-dependencies/)
         - [比较依赖范围](/dependency-injection/dependency-lifetimes-and-scopes/comparing-dependency-scopes/)
     - [组件范围依赖](/dependency-injection/component-scoped-dependencies/)
-        - [OwningComponentBase<T>](/dependency-injection/component-scoped-dependencies/owningcomponentbase-generic/)
+        - [OwningComponentBase](/dependency-injection/component-scoped-dependencies/owningcomponentbase-generic/)
         - [拥有多个依赖项：错误的方式](/dependency-injection/component-scoped-dependencies/owning-multiple-dependencies-the-wrong-way/)
         - [拥有多个依赖项：正确的方式](/dependency-injection/component-scoped-dependencies/owning-multiple-dependencies-the-right-way/)
